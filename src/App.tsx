@@ -9,7 +9,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Martinez-Styles">
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />

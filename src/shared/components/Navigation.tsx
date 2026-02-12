@@ -9,7 +9,7 @@ const Navigation = () => {
     const location = useLocation();
     const { t, i18n } = useTranslation();
     const cartItemCount = cart.length;
-    const [isDarkMode, setIsDarkMode] = useState(true);
+    const [isDarkMode, setIsDarkMode] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {

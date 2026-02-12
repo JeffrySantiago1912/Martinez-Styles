@@ -13,7 +13,7 @@ import OutfitSummary from './OutfitSummary';
 
 const OutfitBuilderPage = () => {
     const { products, isLoading } = useProducts();
-    const { currentOutfit, addToOutfit } = useStore();
+    const { addToOutfit } = useStore();
     const [activeProduct, setActiveProduct] = useState<Product | null>(null);
     const { t } = useTranslation();
 
